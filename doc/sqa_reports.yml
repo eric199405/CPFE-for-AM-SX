@@ -1,0 +1,6 @@
+Applications:
+    am_sx_dendrite:
+        app_types:
+            - AM_SX_dendriteApp
+        content_directory: ${ROOT_DIR}/doc/content
+        log_default: WARNING
