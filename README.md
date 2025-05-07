@@ -16,7 +16,7 @@ The folders of ‘src’ and ‘include’: source C++ file and header file, res
 The ‘CPFE_980C.i’ is the input file of simulation under MOOSE.  
 The ‘input_slip_sys.txt’ is the slip systems of FCC alloys.  
 The ‘conc_ele.txt’ and ‘micro_morph.txt’ are the inputs of gradient element concentrations and gamma/gamma prime morphology.  
-‘Makefile’ contains the enabled modules during the compiling.  
+The ‘Makefile’ contains the enabled modules during the compiling.  
 
 III. Detailed introductions and documentation for the variables are provided in both input file and source code. The functions of the attached C++ source codes are listed as follows:  
 CrystalPlasticityDislocationDendrite: dislocation-based plastic constitutive relations for AM SX with TGMs, which is the core of crystal plasticity model for TGMs at dendrites.  
