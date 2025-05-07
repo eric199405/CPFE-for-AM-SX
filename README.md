@@ -5,20 +5,20 @@ Crystal plasticity finite element (CPFE) code for AM SX, to simulate the deforma
 
 The CPFE simulation is conducted under open-source MOOSE platform for the FEM analysis, with source code for the manuscript attached. We also provide a representative demo case in ‘CPFE_980C.i’ as an input file, corresponding to the simulation at 980 °C for the dendrite deformation considering the effects of trigonometric gradient microstructures (TGMs), based on the dislocation-based crystal plasticity model.
 
-1. To run the CPFE simulation in MOOSE software, please do:  
+I. To run the CPFE simulation in MOOSE software, please do:  
 Step 1: Download and install MOOSE in Linux system (https://mooseframework.inl.gov/getting_started/installation/), under LGPL v2.1 license  
 Step 2: Install the APP named ‘am_sx_dendrite’ targeting the attached source code and compile by ‘make -j8’, detailed  instructions and commands please refer to https://mooseframework.inl.gov/getting_started/new_users.html  
 Step 4: Run the case of ‘CPFE_980C.i’, by entering the command: ./ am_sx_dendrite-opt -i CPFE_980C.i  
 Step 4: To check the time-dependent global variables, such as global stress-strain, please open the ‘CPFE_980C_case_980C_1.csv’ file. To view the CPFE simulation results using ParaView 5.12 (https://www.paraview.org/), please load the ‘CPFE_980C_case_980C_2.e’ file in Paraview  
 
-2. The introductions of the attached files are given as follows:  
+II. The introductions of the attached files are given as follows:  
 The folders of ‘src’ and ‘include’: source C++ file and header file, respectively.  
 The ‘CPFE_980C.i’ is the input file of simulation under MOOSE.  
 The ‘input_slip_sys.txt’ is the slip systems of FCC alloys.  
 The ‘conc_ele.txt’ and ‘micro_morph.txt’ are the inputs of gradient element concentrations and gamma/gamma prime morphology.  
 ‘Makefile’ contains the enabled modules during the compiling.  
 
-3. Detailed introductions and documentation for the variables are provided in both input file and source code. The functions of the attached C++ source codes are listed as follows:  
+III. Detailed introductions and documentation for the variables are provided in both input file and source code. The functions of the attached C++ source codes are listed as follows:  
 CrystalPlasticityDislocationDendrite: dislocation-based plastic constitutive relations for AM SX with TGMs, which is the core of crystal plasticity model for TGMs at dendrites.  
 CrystalPlasticityDislocationDendriteBase: base class of CrystalPlasticityDislocationDendrite.  
 ComputeDislocationCrystalPlasticityStress: update the stress tensor for dislocation-based model.  
