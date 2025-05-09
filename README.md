@@ -28,7 +28,7 @@ SB_detection: to simulate the slip band initiation and propagation.
 CoupledVarDirichletBC: to apply the pre-condition of residual stresses and initial dislocation densities.  
 PiecewiseFunctions: a piecewise representation of arbitrary functions for applying the pre-condition of residual stresses and initial dislocations.  
 
-Contacts: guozixu@nus.edu.sg (Zixu Guo); xu_yilun@ihpc.a-star.edu.sg (Yilun Xu)
+Contacts: guozixu@nus.edu.sg (Zixu Guo); xu_yilun@ihpc.a-star.edu.sg (Yilun Xu); mpeyanw@nus.edu.sg (Wentao Yan)
 
 Related publications:  
 [1] Permann, C. J. et al. MOOSE: Enabling massively parallel multiphysics simulation. SoftwareX 11, 100430 (2020). https://doi.org:https://doi.org/10.1016/j.softx.2020.100430  
