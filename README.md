@@ -15,7 +15,7 @@ II. The introductions of the attached files are given as follows:
 The folders of ‘src’ and ‘include’: source C++ file and header file, respectively.  
 The ‘CPFE_980C.i’ is the input file of simulation under MOOSE.  
 The ‘input_slip_sys.txt’ is the slip systems of FCC alloys.  
-The ‘conc_ele.txt’ and ‘micro_morph.txt’ are the inputs of gradient element concentrations and gamma/gamma prime morphology.  
+The ‘conc_ele.txt’ and ‘micro_morph.txt’ are the inputs of gradient element concentrations and gamma/gamma prime morphology (with TGMs cases). Suffix ‘without_TGMs’ represents the ones without gradients of microstructures. 
 The ‘Makefile’ contains the enabled modules during the compiling.  
 
 III. Detailed introductions and documentation for the variables are provided in both input file and source code. The functions of the attached C++ source codes are listed as follows:  
